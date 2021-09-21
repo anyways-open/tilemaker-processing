@@ -4,7 +4,7 @@ OUTPUT=$1
 
 # download latest dump.
 rm belgium-and-neighbourhood-bbox-latest.osm.pbf
-wget https://staging.anyways.eu/planet/planet/extracts/belgium-and-neighbourhood-bbox-latest.osm.pbf
+wget http://planet.anyways.eu/planet/extracts/belgium-and-neighbourhood-bbox-latest.osm.pbf
 
 # generate tiles.
 mkdir out
