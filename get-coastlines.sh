@@ -5,7 +5,7 @@ ROOT=$PWD
 mkdir -p landcover/ne_10m_urban_areas
 cd landcover/ne_10m_urban_areas 
 rm -rf ne_10m_urban_areas.zip
-wget https://staging.anyways.eu/planet/naturalearth/ne_10m_urban_areas.zip
+wget http://planet.anyways.eu/naturalearth/ne_10m_urban_areas.zip
 unzip -o ne_10m_urban_areas.zip
 cd $ROOT
 
@@ -13,7 +13,7 @@ cd $ROOT
 mkdir -p landcover/ne_10m_antarctic_ice_shelves_polys
 cd landcover/ne_10m_antarctic_ice_shelves_polys 
 rm -rf ne_10m_antarctic_ice_shelves_polys.zip
-wget https://staging.anyways.eu/planet/naturalearth/ne_10m_antarctic_ice_shelves_polys.zip
+wget http://planet.anyways.eu/naturalearth/ne_10m_antarctic_ice_shelves_polys.zip
 unzip -o ne_10m_antarctic_ice_shelves_polys.zip
 cd $ROOT
 
@@ -21,7 +21,7 @@ cd $ROOT
 mkdir -p landcover/ne_10m_glaciated_areas
 cd landcover/ne_10m_glaciated_areas 
 rm -rf ne_10m_glaciated_areas.zip
-wget https://staging.anyways.eu/planet/naturalearth/ne_10m_glaciated_areas.zip
+wget http://planet.anyways.eu/naturalearth/ne_10m_glaciated_areas.zip
 unzip -o ne_10m_glaciated_areas.zip
 
 # get water polygons.
