@@ -5,7 +5,7 @@ ROOT=$PWD
 mkdir -p landcover/ne_10m_urban_areas
 cd landcover/ne_10m_urban_areas 
 rm -rf ne_10m_urban_areas.zip
-wget https://www.naturalearthdata.com/http//www.naturalearthdata.com/download/10m/cultural/ne_10m_urban_areas.zip
+wget https://staging.anyways.eu/planet/naturalearth/ne_10m_urban_areas.shp
 unzip -o ne_10m_urban_areas.zip
 cd $ROOT
 
