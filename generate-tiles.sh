@@ -22,4 +22,8 @@ mv ${ROOT}/out/openmaptiles.mbtiles ${OUTPUT}/openmaptiles.mbtiles
 cd ${OUTPUT}
 md5sum openmaptiles.mbtiles > openmaptiles.mbtiles.md5
 
+# remove old files
+echo "Removing old files"
+find ${OUTPUT}/* -mtime +5 -exec rm {} \;
+
 cd ${ROOT}
